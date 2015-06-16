@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class=" js cssanimations csstransforms csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Coming Out</title>
+        <meta name="description" content="ASU clubs celebrate National Coming Out Day.">
+        <meta name="keywords" content="circle, border-radius, hover, css3, transition, image, thumbnail, effect, 3d">
+        <meta name="author" content="The State Press">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+		<link href="./css" rel="stylesheet" type="text/css">
+		<script type="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" > </script> 
+		<!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<!--colorbox-->
+		<link rel="stylesheet" href="http://archive.voxmagazine.com/media/multimedia/2013/LittleKnownSecrets/colorbox.css">
+		<script src="./jquery.min.js"></script>
+		<script src="./jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+					// disable :hover on touch devices
+// based on https://gist.github.com/4404503 
+// via https://twitter.com/javan/status/284873379062890496
+// + https://twitter.com/pennig/status/285790598642946048
+// re http://retrogamecrunch.com/tmp/hover
+// NOTE: we should use .no-touch class on CSS
+// instead of relying on this JS code
+function removeHoverCSSRule() {
+  if ('createTouch' in document) {
+    try {
+      var ignore = /:hover/;
+      for (var i = 0; i < document.styleSheets.length; i++) {
+        var sheet = document.styleSheets[i];
+        if (!sheet.cssRules) {
+          continue;
+        }
+        for (var j = sheet.cssRules.length - 1; j >= 0; j--) {
+          var rule = sheet.cssRules[j];
+          if (rule.type === CSSRule.STYLE_RULE && ignore.test(rule.selectorText)) {
+            sheet.deleteRule(j);
+          }
+        }
+      }
+    }
+    catch(e) {
+    }
+  }
+}
+				});
+			});
+			
+		</script>
+		
+    </head>
+    
+    
+<body>
+<div class="container">
+<a href="http://www.statepress.com" target="_blank"><img src="https://s3.amazonaws.com/media.asp/20487_comingout_bigbannerf.png" width="100%"></a></div>
+			
+				<div class="support-note"><!-- let's check browser support with modernizr -->
+					<!--span class="no-cssanimations">CSS animations are not supported in your browser</span-->
+					<span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+					<!--span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span-->
+					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+				
+</div>
+<div class="row"><div class="col-md-4 col-md-offset-4"><p class="text-center">Oct. 11 is National Coming Out Day, which celebrates coming out as lesbian, gay, bisexual, transgender, queer or asexual. To recognize this important and often difficult decision, The State Press reached out to clubs, organizations and individual student members of ASU’s LGBTQIA community to share their coming out stories.</p></div></div>
+
+<section id="main">
+<ul class="ch-grid">    
+    <li>
+		<div class="ch-item" style="background-image: url('https://s3.amazonaws.com/media.asp/20509_Casillas-color-circlef.png'); width:400px; height:400px;">
+		<div class="ch-info">
+			<p><a class="inline cboxElement" href="#05" data-lightbox-gallery="gallery2">Gabriel <br> Casillas</a></p>
+		</div>
+	</div>
+	</li>
+	
+	<li>
+		<div class="ch-item" style="background-image: url('https://s3.amazonaws.com/media.asp/20504_Jessie-color-circlef.png'); width:400px; height:400px;">
+		<div class="ch-info">
+			<p><a class="inline cboxElement" href="#01" data-lightbox-gallery="gallery2">Jessie <br> Flores</a></p>
+		</div>
+	</div>
+	</li>
+	<li>
+		<div class="ch-item" style="background-image:url('https://s3.amazonaws.com/media.asp/20502_Alejandro-color-circlef.png'); width:400px; height:400px;">
+		<div class="ch-info">
+			<p><a class="inline cboxElement" href="#02" data-lightbox-gallery="gallery2">Alejandro<br> Ramirez</a></p>
+		</div>
+	</div>
+	</li>
+		
+	<li>
+		<div class="ch-item" style="background-image:url('https://s3.amazonaws.com/media.asp/20510_malik-color-circlef.png'); width:400px; height:400px;">
+		<div class="ch-info">
+			<p><a class="inline cboxElement" href="#04" data-lightbox-gallery="gallery2">Malik<br> Ashe</a></p>
+		</div>
+	</div>
+	</li>
+	
+	
+	<li>
+		<div class="ch-item" style="background-image:url('https://s3.amazonaws.com/media.asp/20506_Tyler-color-circlef.png'); width:400px; height:400px;">
+		<div class="ch-info">
+			<p><a class="inline cboxElement" href="#03" data-lightbox-gallery="gallery2">Tyler<br> Abrams</a></p>
+		</div>
+	</div>
+	</li>
+	
+	<li>
+		<div class="ch-item" style="background-image:url('https://s3.amazonaws.com/media.asp/20538_10.12-Coming-Out-squaref.png'); width:400px; height:400px;">
+		<div class="ch-info">
+			<p><a class="inline cboxElement" href="#06" data-lightbox-gallery="gallery2"> Noticing Coming Out Week</a></p>
+		</div>
+	</div>
+	</li>
+	
+
+</section>
+		
+
+		
+<div>
+<div style="display:none">
+	<div id="01" class="popup">
+	<p><img class="displayed" src="https://s3.amazonaws.com/media.asp/20484_comingout_banner-Jessief.png" width="100%">
+	<iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171262600&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+	<p>“I heard my parents crying and things like that. Later on, my mom told me she wasn’t upset that I was gay, but she was worried about all the things that I would have to go through throughout life. She actually had a brother who was gay, and he ended up dying of AIDS. So, that’s her major concern, and I told her not to tell my dad. I told her I was going to tell him myself. I come to find out she told him because she’s nosey and very talkative and it’s her husband. My dad was totally cool. He was like ‘Oh, so what?’ So I was lucky that my mom had a brother who was gay and my dad had his best friend, who is gay as well.”</p>
+	<img src="https://s3.amazonaws.com/media.asp/20545_Jessie-7f.jpg" width="100%">
+	</div>
+</div>
+
+<div>
+<div style="display:none">
+	<div id="02" class="popup">
+	<p><img src="https://s3.amazonaws.com/media.asp/20482_comingout_banner-Alejandof.png" width="100%">
+	<iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171262602&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+<p>“As I entered high school, I realized, ‘No, I’m happy as who I am. It’s who I actually am. It’s not going to change. I am a gay man.’ That was the first part – deciding to finally come out to myself and accepting who I really was.”</p>
+<img src="https://s3.amazonaws.com/media.asp/20548_Alejandrof.jpg" width="100%">
+	</div>
+</div>
+
+<div>
+<div style="display:none">
+	<div id="03" class="popup">
+	<p><img src="https://s3.amazonaws.com/media.asp/20486_comingout_banner-Tylerf.png" width="100%">
+	<iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171262595&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+<p>“I mean because it’s become so socially acceptable outside, I think
+that really reflected how my family was. It’s a hot topic with us, and we talk about what’s going on socially all the time. It’s amazing because I’d never thought that I’d be able to have a viable life where we talk about ‘me and my husband will visit you and your husband’ or ‘you and you wife for this holiday.’ Just having that sort of familial bonds, and of course all my friends knew.”</p>
+<img src="https://s3.amazonaws.com/media.asp/20551_Tyler-5f.jpg" width="100%">
+	</div>
+</div>
+
+<div>
+<div style="display:none">
+	<div id="04" class="popup">
+	<p><img src="https://s3.amazonaws.com/media.asp/20485_comingout_banner-Malikf.png" width="100%">
+	<iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171262598&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+<p>“At the end of the day you are going to have support or no support. I see it as simple as that. You may have parents who make you feel accepted, but you are on your own. I feel like if you can’t even come into agreement with yourself, then what do other people’s opinions matter? Because you are going to be thinking to yourself, 'Oh my god, I'm this horrible human being because I’m gay or lesbian or bi or whatever?' And at the end of the day, their opinions don’t matter. It’s all about you.”</p>
+<img src="https://s3.amazonaws.com/media.asp/20549_coming-out-malik-ashe-4f.jpg" width="100%">
+	</div>
+</div>
+
+<div>
+<div style="display:none">
+	<div id="05" class="popup">
+	<p><img src= "https://s3.amazonaws.com/media.asp/20483_comingout_banner-Gabrielf.png" width="100%">
+	<iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171262601&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+<p>"So finally we said 'bye.' We kissed each other and then I pull back, open my eyes and all of a sudden I see (my boyfriend's) shocked face, and as soon as I see that I’m confused. I’m kind of panicked, like ‘What’s happening?’</p>
+<p>So, then finally I see my dad walking towards my grandpa’s house down the street, and he’s shaking his head, kind of confused. So I just started laughing, that’s how I dealt with nerves. I just started busting out laughing, like ‘I can’t believe he saw us.’ ... I knew (my dad) might have a problem with it, especially because he’s a manly guy, like ‘You don’t kiss guys.’</p>
+<p>I went up to my room. He came up to my room, and he is like, 'So, what’s going on?' I’m like ‘Well, you saw it, didn’t you? There’s nothing else that needs to be explained.’ And he’s like, 'Okay, that’s fine, I’m okay with it.' So he was kind of like ‘I love you still, nothing changes, and you’re still my son.’"</p>
+<img src="https://s3.amazonaws.com/media.asp/20542_casillas-popf.jpg" width="100%">
+	</div>
+</div>
+<div>
+<div style="display:none">
+	<div id="06" class="popup">
+	<p><a href="http://www.statepress.com/2014/10/09/pride-week-went-mostly-unnoticed-thats-a-problem/" target=blank><strong>Editorial: Coming Out Week went mostly unnoticed — that's a problem</strong></a></p>
+	<p>Coming Out Week comes to a conclusion Saturday, and, unfortunately, its potential was not fully reached. While there was an event held on every campus, Polytechnic was the only one to hold more than one. We don’t mean to fault any one group for the meager display of pride compared to some other universities, but rather, we want to offer some ways in which we think the event could be improved, and clarify why we think it so important to do so.<p>
+
+<p>First of all, holding the week in October was a decision based on National Coming Out Day, which happens every year on Oct. 11. The power of Coming Out Day is eloquently put by the <a href="http://www.hrc.org/resources/entry/national-coming-out-day" target="_blank" rel="nofollow">Human Rights Campaign</a>: “When people know someone who is LGBTQ, they are far more likely to support equality under the law. Beyond that, our stories can be powerful to each other.”</p> <p>Unfortunately, our week spanned from Oct. 3 to Oct. 10, which does not include the most crucial part and main influence of the week in the first place. A better option would have been to have Coming Out Day midweek <a href="http://gpsa.asu.edu/2013/10/student-and-cultural-engagement-lgbtqa-coalition-and-culture-asu-presents-pride-week-out-at-asu/" target="_blank" rel="nofollow">like last year’s Pride Week did</a>.</p>
+
+<p>Although UA is ASU’s sworn rival, our community can learn a lot from how it coordinated of its own <a href="http://uaatwork.arizona.edu/uannounce/coming-out-week-2014" target="_blank" rel="nofollow">Coming Out Week</a>. Its events have a long list of collaborators and sponsors such as ASUA Pride Alliance, Office of LGBTQ Affairs, Dean of Students Office, and Associated Students for the University of Arizona, among many more. If the Sun Devil community could bring together groups like Residential Life, USG and the many <a href="https://eoss.asu.edu/safezone/resources/campus" target="_blank" rel="nofollow">minority-representative clubs</a> on campus, Pride Week could vastly improve.</p>
+
+<p>UA organizes a wide variety and large volume of events as well, with affairs like “resource fairs, workshops, speakers, films, Tucson Pride and AIDSWalk.” In making its events ingrained with both the city of Tucson and the university as a whole, UA takes great strides toward moving LGBTQ issues to the forefront of acceptance.</p>
+
+<p>Instead of holding a singular event in the basement of the Memorial Union, as Tempe campus did, UA spread its various events across the entire campus through interesting methods. ASU is already better than UA at everything else; we might as well start being better at properly celebrating Coming Out Week.</p>
+
+<p>We could also look to the example set by Pennsylvania State University, which began its Coming Out Week by making a prominent building on campus something of a <a href="http://www.collegian.psu.edu/news/campus/article_69afecac-4dba-11e4-84e2-001a4bcf6878.html" target="_blank" rel="nofollow">headquarters for activities</a> while also managing to have Laverne Cox, the transgender TV star of “Orange is the New Black,” <a href="http://www.ncodw.psu.edu/events.shtml" target="_blank" rel="nofollow">speak for the Nittany Lions.</a></p>
+
+<p>Maybe we won’t get to that high of a bar next year, but it is important that we make a push toward progress in this week of celebration. Making the LGBTQIA members of the Sun Devil community feel comfortable and welcome is a crucial aspect of creating an inclusive college community. Coming Out Week gives us a sterling opportunity to do just that, and in the future, we would like to see a more comprehensive, collaborative effort.</p>
+	</div>
+</div>
+<span style="text-align:center"><p>If you are still interested in sharing your coming out story, please email at us at news.statepress@gmail.com.</p></span>
+</div><!--end content div-->
+		
+
+<div id="footer">
+<p>Reporting by Ksenia Maryasova and Peter Northfelt <span style="color:#bf5fff"><strong>| </strong></span> Photos by Carly Traxler, Emily Johnson and Andrew Ybanez<span style="color:#bf5fff"><strong>| </strong></span> Graphics by Samantha Presley <br>Web design by Julia Shumway <span style="color:#bf5fff"><strong> | </strong></span> Edited by Shelby Slade, Julia Shumway and Ben Moffat <span style="color:#bf5fff"><strong>| </strong></span> Photos edited by Alexis Macklin <span style="color:#bf5fff"><strong>| </strong></span> Audio edited by Sean Logan</span>
+<p><a href="http://www.statepress.com" target="_blank"><span style="color:#bf5fff">The State Press</span></a>
+</div>
+</div>
+</div></body></html>
