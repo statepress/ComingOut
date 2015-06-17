@@ -101,8 +101,8 @@ margin-right:2%;
 }
 
 .ch-grid li {
-	width: 400px;
-	height: 400px;
+	width: 50%;
+	height: 50%;
 	display: inline-block;
 	margin: 30px;
 	
@@ -146,7 +146,7 @@ IMG.displayed {
 }
 
 .ch-info {
-	position: absolute;
+	position: relative;
 	background: rgba(129, 129, 129, 0.7);
 	width: inherit;
 	height: inherit;
