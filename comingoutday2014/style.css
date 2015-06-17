@@ -104,7 +104,7 @@ margin-right:2%;
 	width: 300px;
 	height: 300px;
 	display: inline-block;
-	margin: 30px;
+	margin: auto;
 	
 IMG.displayed {
     display: block;
